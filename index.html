@@ -17,12 +17,12 @@
 		<div class="imDimmed z_index_3" style=""></div>
 		<div class="imPopup z_index_2 step1Frame" > <!-- z_index_2 OR z_index_3 -->
 			<div class="imPopBox">
-				<p class="hashtag"><span>#프레임포토다운</span></p>
+				<p class="hashtag"><span>#FramePhoto</span></p>
 
 				<ul class="popText">
-					<li class="photoFrameStep1"><strong>1.</strong> 사진을 업로드합니다.</li>
-					<li class="photoFrameStep1"><strong>2.</strong> 업로드한 사진을 드래그 이동 및 확대/축소하여 알맞은 위치로 이동시켜주세요.</li>
-					<li class="photoFrameStep2"><strong>3.</strong> 사진 프레임을 선택하고 이미지를 다운로드하세요. (모바일은 이미지 다운로드 버튼 클릭 시 이동되는 링크에서 이미지를 꾹 눌러 저장하실 수 있습니다.)</li>
+					<li class="photoFrameStep1"><strong>1.</strong> Upload your photo or picture.</li>
+					<li class="photoFrameStep1"><strong>2.</strong> Using cropper, Positioning your photo and picture what you want to.</li>
+					<li class="photoFrameStep2"><strong>3.</strong> Select photo frame and download your image. ( In explorer 10, edge and mobile brower, you can get your image on new page. )</li>
 				</ul>
 
 				<div class="popImageArea">
@@ -30,72 +30,72 @@
 						<div class="userUpload ">
 							<div class="uploadImg" style="width:100%;height:100%;"></div>
 							<span class="frameArea photoFrameStep2"><img src="img/frame1.png" alt=""></span> <!-- frame1.png ~ frame6.png -->
-							<img src="img//noneUpload.png" alt="" style="display:none;"> <!-- 업로드 없을 때 디폴트 이미지 -->
+							<img src="img//noneUpload.png" alt="" style="display:none;"> <!-- default image -->
 						</div>
 
 						<div class="imBtnArea">
 							<p class="uploadBtn photoFrameStep1">
 								<span class="file_input">
-									<input type="button" value="이미지 업로드" class="file_input_button">
+									<input type="button" value="image upload" class="file_input_button">
 									<input type="file" class="file_input_hidden" id="fileInput" accept="image/*">
 								</span>
 							</p>
-							<p class="nextBackBtn goStep2 photoFrameStep1"><a href="javascript:;">다음</a></p>
-							<p class="downloadBtn photoFrameStep2"><a href="javascript:;"><span>이미지 다운로드</span></a></p>
-							<p class="nextBackBtn goStep1 photoFrameStep2"><a href="javascript:;">돌아가기</a></p>
+							<p class="nextBackBtn goStep2 photoFrameStep1"><a href="javascript:;">next</a></p>
+							<p class="downloadBtn photoFrameStep2"><a href="javascript:;"><span>image download</span></a></p>
+							<p class="nextBackBtn goStep1 photoFrameStep2"><a href="javascript:;">go back</a></p>
 						</div>
 
 						<div class="imFrame swiper-container photoFrameStep2">
 							<ul class="swiper-wrapper">
 								<li class="swiper-slide">
-									<input type="radio" id="frame1" name="frame" value="프레임 타입1" checked="">
+									<input type="radio" id="frame1" name="frame" value="frameType1" checked="">
 									<label for="frame1"><span class="frame1"><strong></strong></span></label>
 								</li>
 						
 								<li class="swiper-slide">
-									<input type="radio" id="frame2" name="frame" value="프레임 타입2">
+									<input type="radio" id="frame2" name="frame" value="frameType2">
 									<label for="frame2"><span class="frame2"><strong></strong></span></label>
 								</li>
 						
 								<li class="swiper-slide">
-									<input type="radio" id="frame3" name="frame" value="프레임 타입3">
+									<input type="radio" id="frame3" name="frame" value="frameType3">
 									<label for="frame3"><span class="frame3"><strong></strong></span></label>
 								</li>
 						
 								<li class="swiper-slide">
-									<input type="radio" id="frame4" name="frame" value="프레임 타입4">
+									<input type="radio" id="frame4" name="frame" value="frameType4">
 									<label for="frame4"><span class="frame4"><strong></strong></span></label>
 								</li>
 						
 								<li class="swiper-slide">
-									<input type="radio" id="frame5" name="frame" value="프레임 타입5">
+									<input type="radio" id="frame5" name="frame" value="frameType5">
 									<label for="frame5"><span class="frame5"><strong></strong></span></label>
 								</li>
 						
 								<li class="swiper-slide">
-									<input type="radio" id="frame6" name="frame" value="프레임 타입6">
+									<input type="radio" id="frame6" name="frame" value="frameType6">
 									<label for="frame6"><span class="frame6"><strong></strong></span></label>
 								</li>
 							</ul>
 							<div class="swiper-pagination framePaging"></div>
 						</div>
-						<button type="button" class="frameController frameControlLeft photoFrameStep2">페이지 왼쪽 넘김</button><!-- //left button -->
-						<button type="button" class="frameController frameControlRight photoFrameStep2">페이지 오른쪽 넘김</button><!-- //right button -->
+						<button type="button" class="frameController frameControlLeft photoFrameStep2">prev page</button><!-- //left button -->
+						<button type="button" class="frameController frameControlRight photoFrameStep2">next page</button><!-- //right button -->
 
 					</div>
 				</div>
 
-				<p class="popNotice photoFrameStep1"><span>업로드한 이미지를 마우스로 드래그 이동 및 확대/축소하여 <mark>알맞은 위치로 이동시킬 수 있습니다.</mark></span></p>
+				<p class="popNotice photoFrameStep1"><span>For dragging or grabbing,  <mark>Flexibility, you can move and scale your image. </mark></span></p>
 
-				<a href="#" class="popClose">닫기</a>
+				<a href="#" class="popClose">close</a>
 			</div>
 		</div>
 		<!-- SUCCESS DOWNLOAD -->
 		<div class="downSuccessPopup z_index_1" style="display: none;"> <!-- z_index_1 ONLY -->
 			<div class="imPopBox">
-				<p class="successMsg">다운로드가<br />완료되었습니다.</p>
+				<p class="successMsg">download<br />complete</p>
 				<p class="successBtn">
-					<a href="#">확인</a>
+					<a href="#">ok</a>
 				</p>
 			</div>
 		</div>
