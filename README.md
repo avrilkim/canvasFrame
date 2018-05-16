@@ -11,7 +11,7 @@ For marketing service, We planning to use our brand B.I with customer's own phot
 [http://avrilkim.github.io/canvasFrame/](http://avrilkim.github.io/canvasFrame/)
 
 ### features
-Internet explorer has authorize problem in brower even IE10+. So I opened new window with image. and safari has similar rule as well. I solved same method as well.
+Internet explorer ans safari has authorize problem in browser even IE 10+. So I opened a new window with image.
 
   - libraries : jQuery, cropper + Swiper (not necessary for example site)
   - Works in most of major browsers that support CSS 3 (IE10+)
