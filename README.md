@@ -2,7 +2,7 @@ canvasFrame
 ============
 
 
-[![alt text](https://raw.githubusercontent.com/avrilkim/canvasFrame/master/img/sampleImg.jpg)](https://github.com/cmiscm/stickerjs)
+[![alt text](https://raw.githubusercontent.com/avrilkim/canvasFrame/master/img/sampleImg.jpg)](http://avrilkim.github.io/canvasFrame/)
 
 ### Introduction
 For marketing service, We planning to use our brand B.I with customer's own photos. So When customers make their own photo card with our B.I and share that in their SNS channels with pointed key words. we are going to pick some photos up for sending some free gift.
