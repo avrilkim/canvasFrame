@@ -10,7 +10,7 @@ For marketing service, We planning to use our brand B.I with customer's own phot
 ### Example
 [http://avrilkim.github.io/canvasFrame/](http://avrilkim.github.io/canvasFrame/)
 
-### features
+### Features
 Internet explorer and safari has authorize problem in browsers even IE 10+. So I opened a new window which can download with image.
 
   - libraries : jQuery, cropper + Swiper (not necessary for example site)
